@@ -1,6 +1,12 @@
 #!/bin/bash
 apt-get install -y git python
 
+# exit script if return code != 0
+set -e
+
+echo "Installing nzbToMedia"
+
+
 GIT_APP_FOLDER="/app/nzbToMedia"
 CONF_APP_FOLDER="/config/nzbToMedia"
 if [[ -d "$GIT_APP_FOLDER/.git" ]]
