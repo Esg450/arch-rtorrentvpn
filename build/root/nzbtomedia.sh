@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get install -y git python
+yum install -y git python
 
 # exit script if return code != 0
 set -e
