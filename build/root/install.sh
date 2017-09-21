@@ -22,7 +22,7 @@ mv /root/curly.sh /usr/local/bin/
 ####
 
 # define pacman packages
-pacman_packages="git nginx php-fpm rsync openssl tmux gnu-netcat mediainfo npm nodejs php-geoip ipcalc python"
+pacman_packages="git nginx php-fpm rsync openssl tmux gnu-netcat mediainfo npm nodejs php-geoip ipcalc unrar"
 
 # install compiled packages using pacman
 if [[ ! -z "${pacman_packages}" ]]; then
@@ -50,8 +50,6 @@ source /root/aur.sh
 # call custom install script
 source /root/custom.sh
 
-# call nzbtomedia install script
-source /root/nzbtomedia.sh
 
 # config - php
 ####
