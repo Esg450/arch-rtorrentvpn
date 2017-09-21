@@ -50,7 +50,7 @@ source /root/aur.sh
 # call custom install script
 source /root/custom.sh
 
-# call nzbtomedia instal script
+# call nzbtomedia install script
 source /root/nzbtomedia.sh
 
 # config - php
