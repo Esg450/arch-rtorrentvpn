@@ -1,5 +1,5 @@
-FROM binhex/arch-openvpn
-MAINTAINER binhex
+FROM esg450/arch-rtorrentvpn-nzbtomedia
+MAINTAINER esg450
 
 # additional files
 ##################
