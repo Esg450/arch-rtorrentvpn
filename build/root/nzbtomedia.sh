@@ -3,7 +3,7 @@
 # exit script if return code != 0
 set -e
 
-#echo "Installing nzbToMedia"
+echo "Installing nzbToMedia"
 
 
 GIT_APP_FOLDER="/etc/webapps/nzbToMedia"
